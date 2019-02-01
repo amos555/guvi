@@ -1,5 +1,11 @@
-lower_limit1 = int(raw_input())
-upper_limit2 = int(raw_input())
-for i in range(lower_limit1,upper_limit2+1):
+usr = (raw_input())
+usr = usr.split()
+temp =1
+for i in range(int(usr[0]) +1, int(usr[1])):
   if(i%2 != 0):
-    print(i)
+  	if(temp !=1):
+  		print(" ")
+	print (i)
+	temp =0
+    
+    
