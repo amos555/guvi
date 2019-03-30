@@ -6,10 +6,10 @@ for x in s.lower():
 	if x in vowels:
 		n = n.replace(x,"")
 		
-def rev(n):
+def reverse(n):
   str = ""
   for i in n:
     str = i + str
   return str
 
-print (rev(n))
+print (reverse(n))
